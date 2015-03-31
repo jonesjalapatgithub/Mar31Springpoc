@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1427779685550" analysisTimestamp="1427779702253" release="">
+  <Project>
+    <Jar>D:\work\git\SpringMVC\target\classes\com\cybage\assignment\decassignment\EmpBusinessLogic.class</Jar>
+    <Jar>D:\work\git\SpringMVC\target\classes\com\cybage\assignment\decassignment\EmployeeDetails.class</Jar>
+    <Jar>D:\work\git\SpringMVC\target\classes\com\mkyong\common\controller\HelloController.class</Jar>
+    <AuxClasspathEntry>d:\work\git\SpringMVC\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\jonesa\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>d:\work\git\SpringMVC\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>d:\work\git\SpringMVC\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>D:\work\git\SpringMVC\src\main\webapp</SrcDir>
+    <SrcDir>d:\work\git\SpringMVC\src\main\java</SrcDir>
+    <WrkDir>d:\work\git\SpringMVC\target</WrkDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="cb008114b0ba7b018de628308b49a850" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: com.cybage.assignment.decassignment.EmployeeDetails.age</LongMessage>
+    <Class classname="com.cybage.assignment.decassignment.EmployeeDetails" primary="true">
+      <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" start="2" end="21" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+        <Message>At EmployeeDetails.java:[lines 2-21]</Message>
+      </SourceLine>
+      <Message>In class com.cybage.assignment.decassignment.EmployeeDetails</Message>
+    </Class>
+    <Field classname="com.cybage.assignment.decassignment.EmployeeDetails" name="age" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+        <Message>In EmployeeDetails.java</Message>
+      </SourceLine>
+      <Message>Field com.cybage.assignment.decassignment.EmployeeDetails.age</Message>
+    </Field>
+    <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" primary="true" start="20" end="20" startBytecode="2" endBytecode="2" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+      <Message>At EmployeeDetails.java:[line 20]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="40b4d321d9af222b0a0bac420987552" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: com.cybage.assignment.decassignment.EmployeeDetails.name</LongMessage>
+    <Class classname="com.cybage.assignment.decassignment.EmployeeDetails" primary="true">
+      <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" start="2" end="21" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+        <Message>At EmployeeDetails.java:[lines 2-21]</Message>
+      </SourceLine>
+      <Message>In class com.cybage.assignment.decassignment.EmployeeDetails</Message>
+    </Class>
+    <Field classname="com.cybage.assignment.decassignment.EmployeeDetails" name="name" signature="Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+        <Message>In EmployeeDetails.java</Message>
+      </SourceLine>
+      <Message>Field com.cybage.assignment.decassignment.EmployeeDetails.name</Message>
+    </Field>
+    <SourceLine classname="com.cybage.assignment.decassignment.EmployeeDetails" primary="true" start="10" end="10" startBytecode="2" endBytecode="2" sourcefile="EmployeeDetails.java" sourcepath="com/cybage/assignment/decassignment/EmployeeDetails.java">
+      <Message>At EmployeeDetails.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="URF_UNREAD_FIELD" abbrev="UrF" category="PERFORMANCE">
+    <ShortDescription>Unread field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="UrF">
+    <Description>Unread field</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 31 Mar 2015 10:58:05 +0530" total_classes="3" referenced_classes="16" total_bugs="2" total_size="46" num_packages="2" java_version="1.8.0_11" vm_version="25.11-b03" cpu_seconds="3.30" clock_seconds="1.17" peak_mbytes="293.18" alloc_mbytes="1803.00" gc_seconds="0.12" priority_2="2">
+    <FileStats path="com/cybage/assignment/decassignment/EmpBusinessLogic.java" bugCount="0" size="13"/>
+    <FileStats path="com/cybage/assignment/decassignment/EmployeeDetails.java" bugCount="2" size="17" bugHash="57e34e4a8efb49a490fe28a00e739917"/>
+    <FileStats path="com/mkyong/common/controller/HelloController.java" bugCount="0" size="16"/>
+    <PackageStats package="com.cybage.assignment.decassignment" total_bugs="2" total_types="2" total_size="30" priority_2="2">
+      <ClassStats class="com.cybage.assignment.decassignment.EmpBusinessLogic" sourceFile="EmpBusinessLogic.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.cybage.assignment.decassignment.EmployeeDetails" sourceFile="EmployeeDetails.java" interface="false" size="17" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.mkyong.common.controller" total_bugs="0" total_types="1" total_size="16">
+      <ClassStats class="com.mkyong.common.controller.HelloController" sourceFile="HelloController.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="243" invocations="314" avgMicrosecondsPerInvocation="774" maxMicrosecondsPerInvocation="122824" standardDeviationMircosecondsPerInvocation="6992"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="147" invocations="315" avgMicrosecondsPerInvocation="467" maxMicrosecondsPerInvocation="22786" standardDeviationMircosecondsPerInvocation="1607"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="32" invocations="16" avgMicrosecondsPerInvocation="2052" maxMicrosecondsPerInvocation="9976" standardDeviationMircosecondsPerInvocation="2996"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="28" invocations="10" avgMicrosecondsPerInvocation="2825" maxMicrosecondsPerInvocation="26549" standardDeviationMircosecondsPerInvocation="7909"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="25" invocations="69" avgMicrosecondsPerInvocation="375" maxMicrosecondsPerInvocation="2496" standardDeviationMircosecondsPerInvocation="446"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="20" invocations="282" avgMicrosecondsPerInvocation="72" maxMicrosecondsPerInvocation="1194" standardDeviationMircosecondsPerInvocation="133"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="19" invocations="23" avgMicrosecondsPerInvocation="847" maxMicrosecondsPerInvocation="12088" standardDeviationMircosecondsPerInvocation="2463"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="16" invocations="16" avgMicrosecondsPerInvocation="1032" maxMicrosecondsPerInvocation="6392" standardDeviationMircosecondsPerInvocation="1831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="12" invocations="16" avgMicrosecondsPerInvocation="805" maxMicrosecondsPerInvocation="7820" standardDeviationMircosecondsPerInvocation="1859"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

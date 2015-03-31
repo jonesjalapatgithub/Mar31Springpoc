@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+extraProperties=
+projectKey=com.mkyong.common\:SpringMVC
+serverUrl=http\://172.27.59.140\:9000/sonar
+version=2
